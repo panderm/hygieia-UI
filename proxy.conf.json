@@ -1,14 +1,14 @@
 {
     "/api/": {
-        "target": "http://localhost:8080",
+        "target": "/api/",
         "secure": true,
-        "changeOrigin": true,
+        "changeOrigin": false,
         "logLevel": "debug"
     },
     "/apiaudit/": {
-      "target": "http://localhost:8090",
+      "target": "/apiaudit/",
       "secure": true,
-      "changeOrigin": true,
+      "changeOrigin": false,
       "logLevel": "debug"
     }
 }
