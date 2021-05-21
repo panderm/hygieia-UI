@@ -1,13 +1,13 @@
 {
     "/api/": {
-        "target": "/api/",
-        "secure": true,
+        "target": "http://ui-not-ssl-tibuild-hygieia-dev01.apps.nonprod.ocp.int.videotron.com/api/",
+        "secure": false,
         "changeOrigin": false,
         "logLevel": "debug"
     },
     "/apiaudit/": {
-      "target": "/apiaudit/",
-      "secure": true,
+      "target": "http://ui-not-ssl-tibuild-hygieia-dev01.apps.nonprod.ocp.int.videotron.com/apiaudit/",
+      "secure": false,
       "changeOrigin": false,
       "logLevel": "debug"
     }
